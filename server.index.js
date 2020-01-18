@@ -4,7 +4,7 @@ const http = require("http");
 const raysSoloServer = http.createServer(function(request, response) {
   const { method, url } = request;
   if (method === "GET" && url === "/api/data") {
-    console.log("request for all data");
+    console.log("request for all data change");
     //getAllData(request, response);
   }
 });
